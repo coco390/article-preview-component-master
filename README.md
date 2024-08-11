@@ -16,12 +16,12 @@ This project is an article preview component developed as part of a Frontend Men
 
 ## Live
 
-You can view a live demo of the article preview component [here](#).
+You can view a live demo of the article preview component [here](https://coco390.github.io/article-preview-component-master/).
 
 ## Features
 
 - **Responsive Design**: The component adjusts its layout based on screen size to ensure a great user experience across devices. We used a mobile screen of 375.
-- **Social Sharing Buttons**: Users can share the article on social media platforms using the integrated buttons.
+- **Social Sharing Buttons**: Users can share the article using integrated buttons on social media platforms.
 - **Share Popup**: Clicking the share button opens a popup with sharing options.
 - **Clean and Modern UI**: The design is minimalistic and visually appealing.
 
