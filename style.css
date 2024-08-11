@@ -7,6 +7,7 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #ECF2F8;
@@ -82,6 +83,7 @@ body {
     color: #9DAEC2;
 }
 
+/*Button Styling*/
 .share-image{
     position: relative;
     left: 145px;
@@ -92,6 +94,7 @@ body {
     width: 32px;
     height: 32px;
     border-radius: 50%;
+    border: none;
     margin-top: 5px;
 }
 
@@ -100,3 +103,18 @@ body {
     height: 13px;
 }
 
+/*Social Popup Styling*/
+.social-popup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.social-popup p{
+    color: #9DAEC2;
+    font-size: 13px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
