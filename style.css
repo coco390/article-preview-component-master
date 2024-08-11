@@ -126,6 +126,10 @@ body {
    visibility: hidden;
 }
 
+.show {
+    visibility: visible;
+}
+
 .social-popup:after {
     content: '';
     position: absolute;
