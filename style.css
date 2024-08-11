@@ -187,7 +187,9 @@ body {
     }
 
     .share-image {
+        position: relative;
         left: 33px;
+        z-index: 1;
     }
 
     #arrow {
@@ -198,17 +200,18 @@ body {
     .social-popup {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         left: 0px;
         bottom: 64px;
-        gap: 12px;
+        gap: 15px;
         width: 327px;
         height: 64px;
         padding: 0px;
         background: #48556A;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
+        padding: 1rem;
     }
     .social-popup:after {
         content: none;
